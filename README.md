@@ -1,6 +1,7 @@
 <!-- Cyberpunk Neon Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SS7ZX/SS7ZX/main/SS7ZX_cyberpunk_banner.png" width="100%" alt="Cyberpunk Purple Banner" />
+  <img src="https://raw.githubusercontent.com/SS7ZX/SS7ZX/main/SS7ZX_cyberpunk_banner.png" width="100%" alt="<img width="1536" height="1024" alt="Cybaner" src="https://github.com/user-attachments/assets/8e477437-3a75-4f36-8396-db9cc5d77569" />
+" />
 </p>
 
 <h1 align="center">
@@ -40,7 +41,7 @@ I love:
 | Web Pentest | Burp Suite, FFUF, Nikto, Dalfox |
 | Network | Nmap, Netcat, Wireshark |
 | Automation | Bash, Python Scripts |
-| OS | Kali Linux, |
+| OS | Kali Linux |
 
 ---
 
