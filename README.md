@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://github.com/SS7ZX/SS7ZX/assets/00000000/cyberbanner" width="100%" alt="Cyber Banner"/>
+  <img src="[https://github.com/SS7ZX/SS7ZX/assets/00000000/cyberbanner](https://chatgpt.com/s/m_6919ce58ff3c81918fc5f0e2479604e3)" width="100%" alt="Cyber Banner"/>
 </p>
 
 <h1 align="center">⚡ SS7ZX — Cybersecurity & Full-Stack Developer</h1>
