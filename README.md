@@ -107,9 +107,9 @@ I love:
 ---
 
 # 📬 Contact Me  
-📩 **Email** — adnan.syukurr@gmail.com 
-🔗 **LinkedIn** — www.linkedin.com/in/adnan-syukur-350197311
-🧩 **Portfolio** — coming soon  
+📩 **Email** : adnan.syukurr@gmail.com 
+🔗 **LinkedIn** : www.linkedin.com/in/adnan-syukur-350197311
+🧩 **Portfolio** : coming soon  
 
 ---
 
