@@ -1,6 +1,7 @@
 <!-- Cyberpunk Neon Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SS7ZX/SS7ZX/main/SS7ZX_cyberpunk_banner.png" width="100%" alt="<img width="1536" height="1024" alt="Cybaner" src="https://github.com/user-attachments/assets/8e477437-3a75-4f36-8396-db9cc5d77569" />
+ <img width="1536" height="1024" alt="Cybaner" src="https://github.com/user-attachments/assets/25f12f44-9acd-462b-b2f1-50cbe030ecc1" />
+ />
 " />
 </p>
 
