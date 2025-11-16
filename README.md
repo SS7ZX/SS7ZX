@@ -40,7 +40,7 @@ I love:
 | Web Pentest | Burp Suite, FFUF, Nikto, Dalfox |
 | Network | Nmap, Netcat, Wireshark |
 | Automation | Bash, Python Scripts |
-| OS | Kali Linux, Parrot OS |
+| OS | Kali Linux, |
 
 ---
 
