@@ -1,55 +1,55 @@
-# 👋 Hi, I'm SS7ZX  
-### Cyber Security Enthusiast • Bug Bounty Learner • Web & API Pentesting (Junior)
-
-I'm a 3rd-semester Information Systems Technology student from Jakarta with a deep interest in **Cyber Security**, **Bug Bounty Hunting**, and **Web Application Security**.  
-I actively practice on real scopes, build labs, and document methodologies to strengthen my technical foundation.
+<h1 align="center">👋 Hi, I'm <strong>SS7ZX</strong></h1>
+<p align="center">
+  <strong>Cyber Security Enthusiast • Bug Bounty Learner • Web & API Pentesting</strong>
+</p>
 
 ---
 
-## 🔐 My Focus Areas  
-- Web Application Pentesting  
-- API Security Testing (JWT, IDOR, BAC, SSRF)  
-- Recon Automation and Subdomain Enumeration  
-- Secure Coding and Threat Modeling  
-- Bug Bounty (HackerOne Scopes)
+## 🔐 About Me  
+I'm a 3rd-semester Information Systems Technology student from Jakarta with a strong interest in **Web Security**, **API Pentesting**, and **Bug Bounty Hunting**.  
+I learn by building my own labs, practicing on real scopes, and documenting every technique I master.
+
+My goal is to grow into a **skilled web/API penetration tester** with strong fundamentals and clean methodology.
 
 ---
 
 ## 🧰 Skills & Tools  
 **Pentesting:** Burp Suite, Nmap, Gobuster, FFUF, SQLmap, Nikto  
 **Recon:** Subfinder, Amass, Waybackurls, Gau, Nuclei  
-**Programming:** Python (automation), JavaScript, Bash  
-**Environment:** Kali Linux, Parrot OS, Windows 10  
-**Platforms:** HackerOne, GitHub, TryHackMe, HTB
+**Tech:** Python, JavaScript, Bash  
+**Environment:** Kali Linux, Parrot OS, Windows  
+**Platforms:** HackerOne, TryHackMe, HackTheBox  
 
 ---
 
-## 📚 Currently Learning  
-- Advanced API vulnerabilities  
-- Broken Access Control exploitation  
+## 📚 What I'm Learning Now  
+- API Security (IDOR, BAC, JWT issues)  
 - Recon automation using Python  
-- CTF Web challenges: bypasses, filters, unusual vectors  
+- XSS, SSRF, and unusual bypass techniques  
+- CTF Web exploitation  
 
 ---
 
-## 🧪 My Projects  
-- 🔥 **API Pentesting Practice Lab** – vulnerable API for practicing IDOR & BAC  
-- 🧩 **Recon Automation Scripts** – Python tools for fast enumeration  
-- 📘 **Security Notes & Payloads** – curated notes for XSS, SQLi, IDOR  
-- 🛡️ **Bug Bounty Writeups** – documented methodology & sanitized findings  
+## 🧪 Projects & Labs  
+- **API Pentesting Lab** – practice IDOR & access control weaknesses  
+- **Recon Automation Scripts** – Python tools for subdomain & endpoint hunting  
+- **Security Notes & Payloads** – curated XSS, SQLi, auth bypass payloads  
+- **Bug Bounty Writeups** – sanitized reports & methodologies  
 
 ---
 
 ## 📈 GitHub Stats  
-![Stats](https://github-readme-stats.vercel.app/api?username=SS7ZX&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SS7ZX&layout=compact&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SS7ZX&show_icons=true&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SS7ZX&layout=compact&theme=tokyonight" height="165"/>
+</p>
 
 ---
 
 ## 📫 Contact  
-- Email: adnan.syukurr@gmail.com  
-- LinkedIn: AdnanSyukur
+- Email: *adnan.syukurr@gmail.com*  
+- LinkedIn: *Adnan Syukur*  
 
 ---
 
-### ⭐ “Always learning, always testing.”
+<p align="center"><strong>“Always learning. Always testing.”</strong></p>
