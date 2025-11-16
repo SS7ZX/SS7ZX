@@ -71,6 +71,7 @@ I love:
 
 ## 🎨 UI/UX Design
 ![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma)
+![Canva](https://img.shields.io/badge/Canva-7952B3?style=flat&logo=canva)
 
 ---
 
