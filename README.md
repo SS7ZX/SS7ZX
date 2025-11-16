@@ -97,13 +97,6 @@ I love:
 
 ---
 
-# 🌌 Neon Aesthetic Zone
-
-### 🎶 Spotify (Cyberpunk Mode)
-<div align="center">
-  <img src="https://spotify-github-profile.cannedai.dev/api/view?uid=&cover_image=true&theme=novatorem" width="60%">
-</div>
-
 ---
 
 # 📬 Contact Me  
