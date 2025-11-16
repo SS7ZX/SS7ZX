@@ -106,8 +106,8 @@ I love:
 ---
 
 # 📬 Contact Me  
-📩 **Email** — isi emailmu  
-🔗 **LinkedIn** — isi kalau ada  
+📩 **Email** — adnan.syukurr@gmail.com 
+🔗 **LinkedIn** — www.linkedin.com/in/adnan-syukur-350197311
 🧩 **Portfolio** — coming soon  
 
 ---
