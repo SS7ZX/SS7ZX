@@ -2,7 +2,6 @@
 <p align="center">
  <img width="1536" height="1024" alt="Cybaner" src="https://github.com/user-attachments/assets/25f12f44-9acd-462b-b2f1-50cbe030ecc1" />
  />
-" />
 </p>
 
 <h1 align="center">
