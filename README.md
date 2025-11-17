@@ -36,7 +36,7 @@ I love:
 ## 🧪 Cybersecurity Toolkit  
 | Category | Tools |
 |---------|-------|
-| Recon | Subfinder, Gau, Waybackurls, Amass |
+| Recon | Subfinder, Gau, Waybackurls, Amass, Burpsuite |
 | Web Pentest | Burp Suite, FFUF, Nikto, Dalfox |
 | Network | Nmap, Netcat, Wireshark |
 | Automation | Bash, Python Scripts |
