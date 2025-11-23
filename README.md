@@ -37,7 +37,7 @@ I love:
 | Category | Tools |
 |---------|-------|
 | Recon | Subfinder, Gau, Waybackurls, Amass, Burpsuite |
-| Web Pentest | Burp Suite, FFUF, Nikto, Dalfox |
+| Web Pentest | Burp Suite Profesional, FFUF, Nikto, Dalfox |
 | Network | Nmap, Netcat, Wireshark |
 | Automation | Bash, Python Scripts |
 | OS | Kali Linux |
