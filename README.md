@@ -137,7 +137,7 @@ A simple 2D game built in Unity, focusing on game logic development and simple p
 
 📬 Contact Me
 
-📩 Email : adnan.syukurr@gmail.com
+📩 Email : adnannsyukurr@gmail.com
 
 🔗 LinkedIn : https://www.linkedin.com/in/adnansyukurs/
 🧩 Portfolio : https://myportofolio-11053.web.app/
