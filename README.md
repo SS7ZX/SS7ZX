@@ -140,7 +140,7 @@ A simple 2D game built in Unity, focusing on game logic development and simple p
 📩 Email : adnan.syukurr@gmail.com
 
 🔗 LinkedIn : www.linkedin.com/in/adnan-syukur-350197311
-🧩 Portfolio : coming soon
+🧩 Portfolio : https://myportofolio-11053.web.app/
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SS7ZX&color=BB4BFF&style=for-the-badge" />
