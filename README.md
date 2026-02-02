@@ -102,6 +102,8 @@ Subdomain & endpoint scanner
 
 Go
 
+Rust
+
 A fast, custom-built toolkit using Go to automate the initial reconnaissance phase for bug bounty hunting, improving efficiency.
 
 🔥 Firebase Auth Demo
