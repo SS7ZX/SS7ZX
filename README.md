@@ -137,7 +137,7 @@ A simple 2D game built in Unity, focusing on game logic development and simple p
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SS7ZX&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
-📬 Contact Me
+📬 Contact Me:
 
 📩 Email : adnannsyukurr@gmail.com
 
