@@ -60,7 +60,7 @@ Bash, Python Scripts
 
 OS
 
-Kali Linux
+Kali Linux, Parrot
 
 💻 Programming Languages
 
