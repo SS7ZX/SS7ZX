@@ -26,7 +26,7 @@ Building secure ones
 
 Designing experiences that feel alive
 
-🔹 3rd-semester Information Systems Technology student
+🔹 Undergratuate Information Systems Technology student
 
 🔹 Active bug bounty learner (HackerOne methodology)
 
