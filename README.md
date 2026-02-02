@@ -44,7 +44,7 @@ Tools
 
 Recon
 
-Subfinder, Gau, Waybackurls, Amass, Burpsuite
+Subfinder, Gau, Waybackurls, Amass, Burpsuite, Curl
 
 Web Pentest
 
