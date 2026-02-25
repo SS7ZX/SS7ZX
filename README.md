@@ -122,13 +122,6 @@ Markdown
 
 A personal, organized repository of common vulnerabilities, exploitation payloads, and detailed methodology notes for pentesting.
 
-🎮 Pixel Runner Game
-
-2D pixel art endless runner
-
-Unity
-
-A simple 2D game built in Unity, focusing on game logic development and simple pixel art design principles.
 
 📊 GitHub Analytics
 
