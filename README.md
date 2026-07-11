@@ -1,5 +1,5 @@
 <!-- ============================================================ -->
-<!--  ADNAN SYUKUR — GITHUB PROFILE README  (v2.0 — DEEP UPGRADE)  -->
+<!--  ADNAN SYUKUR — GITHUB PROFILE README  (v3.0 — MAX DEPTH)     -->
 <!-- ============================================================ -->
 
 <p align="center">
@@ -25,18 +25,23 @@
   <img src="https://img.shields.io/badge/Status-Open%20to%20Placement%20%2F%20Collaboration-39FF14?style=flat-square&logo=checkmarx&logoColor=black" />
   <img src="https://komarev.com/ghpvc/?username=SS7ZX&color=BB4BFF&style=flat-square&label=PROFILE+VIEWS" />
   <img src="https://img.shields.io/github/followers/SS7ZX?style=flat-square&color=BB4BFF&label=Followers" />
+  <img src="https://img.shields.io/badge/Last%20Updated-July%202026-1a1a2e?style=flat-square" />
 </p>
 
 <p align="center">
   <sub>📖 <b>Table of Contents:</b>
   <a href="#-about-me">About</a> ·
-  <a href="#-skills-matrix">Skills Matrix</a> ·
+  <a href="#-skills-matrix">Skills</a> ·
   <a href="#️-tech-stack">Tech Stack</a> ·
-  <a href="#-security-methodology">Security Methodology</a> ·
+  <a href="#-security-methodology">Methodology</a> ·
+  <a href="#-case-study-c-pay-architecture">Case Study</a> ·
   <a href="#-featured-projects">Projects</a> ·
+  <a href="#-code-style-sample">Code Sample</a> ·
   <a href="#-professional-experience">Experience</a> ·
   <a href="#-education--certifications">Education</a> ·
+  <a href="#-2026-roadmap">Roadmap</a> ·
   <a href="#-github-analytics">Analytics</a> ·
+  <a href="#-faq">FAQ</a> ·
   <a href="#-lets-connect">Contact</a>
   </sub>
 </p>
@@ -56,6 +61,7 @@ background: 6-month vocational specialization in Network Infrastructure (TKJ)
 philosophy: "Build it clean. Break it yourself. Ship it secure."
 currently_exploring: [Go (Golang), Firebase, Supabase Edge Functions]
 fun_fact: "Solo-engineered a full closed-loop payment system before finishing college."
+open_to: [Web Development, Junior Red Team, Full-Stack Placement, Freelance Security Review]
 ```
 
 - 🎓 Undergraduate, **Information Systems Technology** (3rd Semester)
@@ -67,6 +73,10 @@ fun_fact: "Solo-engineered a full closed-loop payment system before finishing co
 - 🟣 Aesthetic obsession: neon-purple, glitch, cyberpunk — because security tooling should look as sharp as it performs
 
 > **Mission:** Build products that are fast, usable, and secure by default — then go find the bugs before someone else does.
+
+### How I Think About Engineering
+
+I treat "developer" and "security researcher" as one job, not two. Every feature I ship, I immediately try to break — auth flows get poked for bypasses, forms get tested for injection, endpoints get checked for IDOR. That habit came from building **C-Pay**: the moment you're solely responsible for a payment system's transaction logic, "does it work" stops being enough — it has to be "can this be abused," too.
 
 ---
 
@@ -171,15 +181,15 @@ fun_fact: "Solo-engineered a full closed-loop payment system before finishing co
   <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white" />
 </p>
 
-| Category | Tools |
-|---|---|
-| **Reconnaissance** | Subfinder, Gau, Waybackurls, Amass, Curl |
-| **Web Pentesting** | Burp Suite Professional, FFUF, Nikto, Dalfox |
-| **Network Analysis** | Nmap, Netcat, Wireshark |
-| **Infrastructure Simulation** | Cisco Packet Tracer, LAN/WAN Architecture, Subnetting |
-| **Vulnerability Focus** | IDOR, Auth Bypass, OWASP Top 10 |
-| **Automation** | Bash & Python scripting, custom Go tooling |
-| **Operating Systems** | Kali Linux, Parrot Security OS, Linux System Administration |
+| Category | Tools | What I use them for |
+|---|---|---|
+| **Reconnaissance** | Subfinder, Gau, Waybackurls, Amass, Curl | Mapping attack surface before any manual testing begins |
+| **Web Pentesting** | Burp Suite Professional, FFUF, Nikto, Dalfox | Manual and semi-automated web app assessment |
+| **Network Analysis** | Nmap, Netcat, Wireshark | Port/service discovery and traffic inspection |
+| **Infrastructure Simulation** | Cisco Packet Tracer | Designing and validating LAN/WAN topologies |
+| **Vulnerability Focus** | IDOR, Auth Bypass, OWASP Top 10 | Core bug classes I specialize in identifying |
+| **Automation** | Bash, Python, custom Go tooling | Speeding up repetitive recon/testing steps |
+| **Operating Systems** | Kali Linux, Parrot Security OS | Daily-driver environments for security work |
 
 ---
 
@@ -196,10 +206,51 @@ My approach to VAPT and application security work follows a consistent, repeatab
 └─────────────┘     └──────────────┘     └────────────────┘     └───────────────┘     └────────────┘
 ```
 
+**1. Recon** — Enumerate subdomains, live hosts, and historical endpoints (`subfinder`, `amass`, `gau`, `waybackurls`) to build a full picture of the target's attack surface before touching anything manually.
+
+**2. Mapping** — Walk the mapped surface to understand app logic: auth flows, role boundaries, API structure, and where user-controlled input meets business logic.
+
+**3. Exploitation** — Focused manual testing against high-risk classes: IDOR (does changing an ID expose another user's data?), auth bypass (can protected routes be reached without valid session?), and the OWASP Top 10 more broadly.
+
+**4. Validation** — Every finding gets re-tested to confirm real, reproducible impact — no theoretical or unconfirmed issues make it into a report.
+
+**5. Report** — Documented with clear reproduction steps and concrete mitigation guidance, written so a developer (not just a security team) can act on it immediately.
+
 - **Recon-first mindset:** every engagement starts with automated surface mapping before manual testing
 - **Defender's lens:** because I build full-stack apps myself, I know exactly where developers cut corners — auth flows, IDOR-prone endpoints, unvalidated input
 - **Responsible process:** findings are documented with reproducible steps and concrete mitigation guidance, not just "found a bug"
 - **Proof point:** this approach earned the **VAPT Excellence Award** from Universitas Siber Indonesia for security evaluation of live university digital assets
+
+---
+
+## 🏗️ Case Study: C-Pay Architecture
+
+A closer look at how C-Pay — my solo-built closed-loop payment system — is structured:
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│                            CLIENT (React)                          │
+│   Event Check-in UI · Wallet Balance View · Merchant Terminal UI   │
+└───────────────────────────────┬────────────────────────────────────┘
+                                 │ HTTPS / REST
+┌───────────────────────────────▼────────────────────────────────────┐
+│                    API LAYER (Express.js / Node.js)                │
+│  ┌───────────────┐ ┌────────────────┐ ┌──────────────────────────┐ │
+│  │ Auth Middleware│ │ Transaction    │ │ Input Validation &       │ │
+│  │ (session/token)│ │ Controller     │ │ Sanitization Layer       │ │
+│  └───────────────┘ └────────────────┘ └──────────────────────────┘ │
+└───────────────────────────────┬────────────────────────────────────┘
+                                 │
+┌───────────────────────────────▼────────────────────────────────────┐
+│                         DATABASE (MongoDB)                         │
+│   Users/Wallets Collection · Transactions Ledger · Event Records   │
+└──────────────────────────────────────────────────────────────────��─┘
+```
+
+**Design decisions worth calling out:**
+- **Transaction logic isolated from the controller layer** — so balance changes can only happen through one audited code path, reducing the chance of inconsistent wallet states
+- **Every mutating request re-validates ownership server-side** — a direct response to how easily IDOR bugs slip into naive "user owns this record" checks
+- **MongoDB chosen for flexible event/transaction schemas** — campus events have varying metadata needs, and a document model avoided constant migrations mid-build
 
 ---
 
@@ -298,6 +349,56 @@ An organized, continuously growing repository of common vulnerabilities, exploit
 
 ---
 
+## 💻 Code Style Sample
+
+A short illustrative snippet in the style I write backend security-conscious middleware — ownership-checked, input-validated, and fail-closed:
+
+```javascript
+// middleware/verifyOwnership.js
+// Pattern used across C-Pay to prevent IDOR on wallet/transaction routes
+
+const verifyOwnership = (Model, paramField = 'id') => {
+  return async (req, res, next) => {
+    try {
+      const resource = await Model.findById(req.params[paramField]);
+
+      if (!resource) {
+        return res.status(404).json({ error: 'Resource not found' });
+      }
+
+      // Fail closed: only the authenticated owner may proceed
+      if (resource.userId.toString() !== req.user.id.toString()) {
+        return res.status(403).json({ error: 'Forbidden' });
+      }
+
+      req.resource = resource;
+      next();
+    } catch (err) {
+      next(err);
+    }
+  };
+};
+
+module.exports = verifyOwnership;
+```
+
+```javascript
+// routes/transactions.js
+// Every mutating route re-validates ownership server-side before touching balances
+
+router.post(
+  '/wallets/:id/transactions',
+  authenticate,
+  verifyOwnership(Wallet, 'id'),
+  validateTransactionInput,
+  transactionController.create
+);
+```
+
+<sub>*Illustrative of coding conventions used across personal projects — not a direct excerpt from a private production repository.*</sub>
+
+---
+
 ## 💼 Professional Experience
 
 <table>
@@ -358,6 +459,19 @@ Ministry of Religious Affairs (Kemenag Jak-Sel)
 
 ---
 
+## 🗺️ 2026 Roadmap
+
+What I'm actively working toward this year:
+
+- [ ] Ship a production-grade version of the **Recon Automation Toolkit** in Go, open-sourced
+- [ ] Formalize bug bounty participation on a public platform using HackerOne methodology
+- [ ] Deepen Supabase Edge Functions to reduce backend latency on LifeFin
+- [ ] Contribute write-ups to the **Pentesting Vault** on a regular cadence
+- [ ] Pursue an industry placement in Full-Stack Development or Junior Red Team security
+- [ ] Explore formal OSCP-track learning materials as a long-term certification goal
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -381,6 +495,22 @@ Ministry of Religious Affairs (Kemenag Jak-Sel)
 <div align="center">
   <img src="https://raw.githubusercontent.com/SS7ZX/SS7ZX/output/github-contribution-grid-snake-dark.svg" />
 </div>
+
+---
+
+## ❓ FAQ
+
+**Are you a developer who does security, or a security researcher who codes?**
+Both, deliberately. Building full-stack apps means I know exactly where developers cut corners — which makes the security side sharper. Doing security work means I ship code that's harder to break in the first place.
+
+**What kind of role are you looking for?**
+Web Development, Junior Red Team / Cybersecurity, or Full-Stack Engineering — ideally somewhere that values both building and breaking.
+
+**Do you take freelance security review work?**
+Open to it — reach out via email or LinkedIn with project scope.
+
+**What's the story behind C-Pay?**
+It started as a way to solve a real problem for campus events (cash handling was messy and error-prone) and became my proof that I could own an entire product — schema, backend, security, and frontend — solo.
 
 ---
 
