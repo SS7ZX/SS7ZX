@@ -516,7 +516,7 @@ It started as a way to solve a real problem for campus events (cash handling was
 
 ## 📬 Let's Connect
 
-I'm actively seeking placements and collaborations in **Web Development**, **Cybersecurity (Junior Red Team)**, or **Full-Stack Engineering** — always open to a conversation about security, product, or both.
+I'm actively seeking placements and collaborations in **Web Development**, **Cybersecurity (Junior Red Team)**, or **Full-Stack Engineering** — always open to a conversation about security, product, or both.-
 
 <p align="center">
   <a href="mailto:adnannsyukurr@gmail.com"><img src="https://img.shields.io/badge/Email-adnannsyukurr%40gmail.com-BB4BFF?style=for-the-badge&logo=gmail&logoColor=white" /></a>
