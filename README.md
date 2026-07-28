@@ -56,7 +56,7 @@ I sit at the intersection of **Full-Stack Engineering**, **Offensive Security**,
 name: Adnan Syukur
 role: Full-Stack Engineer | Cyber Security (Red Team) | Product-Focused Developer
 location: Jakarta Selatan, DKI Jakarta, Indonesia
-education: Information Systems Technology — Undergraduate (3rd Semester)
+education: Information Systems Technology — Undergraduate (5th Semester)
 background: 6-month vocational specialization in Network Infrastructure (TKJ)
 philosophy: "Build it clean. Break it yourself. Ship it secure."
 currently_exploring: [Go (Golang), Firebase, Supabase Edge Functions]
