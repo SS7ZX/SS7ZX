@@ -441,7 +441,7 @@ Ministry of Religious Affairs (Kemenag Jak-Sel)
 
 ## 🎓 Education & Certifications
 
-**Information Systems Technology** — Undergraduate, 3rd Semester
+**Information Systems Technology** — Undergraduate, 5th Semester
 
 **Vocational High School (SMK)** — Computer & Network Engineering (TKJ)
 - 🥇 Ranked **1st (Top Graduate)** in National Final Examination (Ujian Akhir)
