@@ -64,7 +64,7 @@ fun_fact: "Solo-engineered a full closed-loop payment system before finishing co
 open_to: [Web Development, Junior Red Team, Full-Stack Placement, Freelance Security Review]
 ```
 
-- 🎓 Undergraduate, **Information Systems Technology** (3rd Semester)
+- 🎓 Undergraduate, **Information Systems Technology** (5th Semester)
 - 🥇 **BNSP-Certified Network Engineer** — Rank 1 nationally in Computer & Network Engineering (TKJ)
 - 🏆 Recognized by **Universitas Siber Indonesia** for VAPT (Vulnerability Assessment & Penetration Testing) excellence
 - 🧠 Solo-built **C-Pay**, a closed-loop campus payment system, end-to-end (schema → API → transaction logic → UI)
