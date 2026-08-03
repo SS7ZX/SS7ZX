@@ -1,5 +1,5 @@
 <!-- ============================================================ -->
-<!--  ADNAN SYUKUR — GITHUB PROFILE README  (v3.0 — MAX DEPTH)     -->
+<!--  ADNAN SYUKUR  GITHUB PROFILE README  (v3.0  MAX DEPTH)     -->
 <!-- ============================================================ -->
 
 <p align="center">
@@ -50,13 +50,13 @@
 
 ## 🛡️ About Me
 
-I sit at the intersection of **Full-Stack Engineering**, **Offensive Security**, and **Product Design** — I don't just build applications, I stress-test them the way an attacker would, then close the gaps before they ship.
+I sit at the intersection of **Full-Stack Engineering**, **Offensive Security**, and **Product Design**  I don't just build applications, I stress-test them the way an attacker would, then close the gaps before they ship.
 
 ```yaml
 name: Adnan Syukur
 role: Full-Stack Engineer | Cyber Security (Red Team) | Product-Focused Developer
 location: Jakarta Selatan, DKI Jakarta, Indonesia
-education: Information Systems Technology — Undergraduate (5th Semester)
+education: Information Systems Technology  Undergraduate (5th Semester)
 background: 6-month vocational specialization in Network Infrastructure (TKJ)
 philosophy: "Build it clean. Break it yourself. Ship it secure."
 currently_exploring: [Go (Golang), Firebase, Supabase Edge Functions]
@@ -65,18 +65,18 @@ open_to: [Web Development, Junior Red Team, Full-Stack Placement, Freelance Secu
 ```
 
 - 🎓 Undergraduate, **Information Systems Technology** (5th Semester)
-- 🥇 **BNSP-Certified Network Engineer** — Rank 1 nationally in Computer & Network Engineering (TKJ)
+- 🥇 **BNSP-Certified Network Engineer**  Rank 1 nationally in Computer & Network Engineering (TKJ)
 - 🏆 Recognized by **Universitas Siber Indonesia** for VAPT (Vulnerability Assessment & Penetration Testing) excellence
 - 🧠 Solo-built **C-Pay**, a closed-loop campus payment system, end-to-end (schema → API → transaction logic → UI)
-- 🥈 **Top 50 National Finalist** — BudayaGo Competition, as Lead Developer on a gamified language-learning prototype
+- 🥈 **Top 50 National Finalist**  BudayaGo Competition, as Lead Developer on a gamified language-learning prototype
 - 🐹 Currently deepening **Go (Golang)** to build faster recon and automation tooling for bug bounty work
-- 🟣 Aesthetic obsession: neon-purple, glitch, cyberpunk — because security tooling should look as sharp as it performs
+- 🟣 Aesthetic obsession: neon-purple, glitch, cyberpunk  because security tooling should look as sharp as it performs
 
-> **Mission:** Build products that are fast, usable, and secure by default — then go find the bugs before someone else does.
+> **Mission:** Build products that are fast, usable, and secure by default  then go find the bugs before someone else does.
 
 ### How I Think About Engineering
 
-I treat "developer" and "security researcher" as one job, not two. Every feature I ship, I immediately try to break — auth flows get poked for bypasses, forms get tested for injection, endpoints get checked for IDOR. That habit came from building **C-Pay**: the moment you're solely responsible for a payment system's transaction logic, "does it work" stops being enough — it has to be "can this be abused," too.
+I treat "developer" and "security researcher" as one job, not two. Every feature I ship, I immediately try to break  auth flows get poked for bypasses, forms get tested for injection, endpoints get checked for IDOR. That habit came from building **C-Pay**: the moment you're solely responsible for a payment system's transaction logic, "does it work" stops being enough  it has to be "can this be abused," too.
 
 ---
 
@@ -206,18 +206,18 @@ My approach to VAPT and application security work follows a consistent, repeatab
 └─────────────┘     └──────────────┘     └────────────────┘     └───────────────┘     └────────────┘
 ```
 
-**1. Recon** — Enumerate subdomains, live hosts, and historical endpoints (`subfinder`, `amass`, `gau`, `waybackurls`) to build a full picture of the target's attack surface before touching anything manually.
+**1. Recon**  Enumerate subdomains, live hosts, and historical endpoints (`subfinder`, `amass`, `gau`, `waybackurls`) to build a full picture of the target's attack surface before touching anything manually.
 
-**2. Mapping** — Walk the mapped surface to understand app logic: auth flows, role boundaries, API structure, and where user-controlled input meets business logic.
+**2. Mapping**  Walk the mapped surface to understand app logic: auth flows, role boundaries, API structure, and where user-controlled input meets business logic.
 
-**3. Exploitation** — Focused manual testing against high-risk classes: IDOR (does changing an ID expose another user's data?), auth bypass (can protected routes be reached without valid session?), and the OWASP Top 10 more broadly.
+**3. Exploitation**  Focused manual testing against high-risk classes: IDOR (does changing an ID expose another user's data?), auth bypass (can protected routes be reached without valid session?), and the OWASP Top 10 more broadly.
 
-**4. Validation** — Every finding gets re-tested to confirm real, reproducible impact — no theoretical or unconfirmed issues make it into a report.
+**4. Validation**  Every finding gets re-tested to confirm real, reproducible impact  no theoretical or unconfirmed issues make it into a report.
 
-**5. Report** — Documented with clear reproduction steps and concrete mitigation guidance, written so a developer (not just a security team) can act on it immediately.
+**5. Report**  Documented with clear reproduction steps and concrete mitigation guidance, written so a developer (not just a security team) can act on it immediately.
 
 - **Recon-first mindset:** every engagement starts with automated surface mapping before manual testing
-- **Defender's lens:** because I build full-stack apps myself, I know exactly where developers cut corners — auth flows, IDOR-prone endpoints, unvalidated input
+- **Defender's lens:** because I build full-stack apps myself, I know exactly where developers cut corners  auth flows, IDOR-prone endpoints, unvalidated input
 - **Responsible process:** findings are documented with reproducible steps and concrete mitigation guidance, not just "found a bug"
 - **Proof point:** this approach earned the **VAPT Excellence Award** from Universitas Siber Indonesia for security evaluation of live university digital assets
 
@@ -225,7 +225,7 @@ My approach to VAPT and application security work follows a consistent, repeatab
 
 ## 🏗️ Case Study: C-Pay Architecture
 
-A closer look at how C-Pay — my solo-built closed-loop payment system — is structured:
+A closer look at how C-Pay  my solo-built closed-loop payment system  is structured:
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐
@@ -248,9 +248,9 @@ A closer look at how C-Pay — my solo-built closed-loop payment system — is s
 ```
 
 **Design decisions worth calling out:**
-- **Transaction logic isolated from the controller layer** — so balance changes can only happen through one audited code path, reducing the chance of inconsistent wallet states
-- **Every mutating request re-validates ownership server-side** — a direct response to how easily IDOR bugs slip into naive "user owns this record" checks
-- **MongoDB chosen for flexible event/transaction schemas** — campus events have varying metadata needs, and a document model avoided constant migrations mid-build
+- **Transaction logic isolated from the controller layer**  so balance changes can only happen through one audited code path, reducing the chance of inconsistent wallet states
+- **Every mutating request re-validates ownership server-side**  a direct response to how easily IDOR bugs slip into naive "user owns this record" checks
+- **MongoDB chosen for flexible event/transaction schemas**  campus events have varying metadata needs, and a document model avoided constant migrations mid-build
 
 ---
 
@@ -260,20 +260,20 @@ A closer look at how C-Pay — my solo-built closed-loop payment system — is s
 <tr>
 <td width="50%" valign="top">
 
-### 💳 C-Pay — Closed-Loop Payment System
+### 💳 C-Pay  Closed-Loop Payment System
 **Role:** Solo Full-Stack Developer (MERN)
 
-Independently engineered a complete internal payment ecosystem for campus events — from secure transaction logic and database schema design through to the frontend interface. Covers the full lifecycle: user balance management, transaction processing, and merchant-side interfaces.
+Independently engineered a complete internal payment ecosystem for campus events  from secure transaction logic and database schema design through to the frontend interface. Covers the full lifecycle: user balance management, transaction processing, and merchant-side interfaces.
 
 `MongoDB` `Express` `React` `Node.js` `Transaction Security`
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 Bhaswara — BudayaGo Competition
+### 🎮 Bhaswara  BudayaGo Competition
 **Role:** Lead Developer, Team OOTD
 
-Conceptualized and built a gamified regional-language learning prototype for a national competition. **Ranked Top 50 National Finalists** across Indonesia — led both product direction and technical build.
+Conceptualized and built a gamified regional-language learning prototype for a national competition. **Ranked Top 50 National Finalists** across Indonesia  led both product direction and technical build.
 
 `Game Design` `Full-Stack` `Cultural Tech` `Team Leadership`
 
@@ -282,7 +282,7 @@ Conceptualized and built a gamified regional-language learning prototype for a n
 <tr>
 <td width="50%" valign="top">
 
-### 💰 LifeFin — UMKM Financial Platform
+### 💰 LifeFin  UMKM Financial Platform
 **Role:** Full-Stack Developer
 
 Architected a financial management platform for Micro, Small & Medium Enterprises (MSMEs), focused on data encryption and clean, accessible UX to serve non-technical small-business owners.
@@ -292,7 +292,7 @@ Architected a financial management platform for Micro, Small & Medium Enterprise
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ VAPT Award — University Digital Assets
+### 🛡️ VAPT Award  University Digital Assets
 **Role:** Security Contributor
 
 Officially recognized by **Universitas Siber Indonesia** for excellence in security system evaluation and vulnerability mitigation across live university digital infrastructure.
@@ -307,7 +307,7 @@ Officially recognized by **Universitas Siber Indonesia** for excellence in secur
 ### 🔓 API Pentesting Lab
 **Type:** Deliberately Vulnerable API (Self-Built)
 
-A hands-on environment simulating real-world bugs — IDOR, broken auth, injection points — purpose-built to practice and refine penetration-testing methodology in a safe, controlled sandbox.
+A hands-on environment simulating real-world bugs  IDOR, broken auth, injection points  purpose-built to practice and refine penetration-testing methodology in a safe, controlled sandbox.
 
 `Node.js` `PostgreSQL` `Security Research`
 
@@ -317,7 +317,7 @@ A hands-on environment simulating real-world bugs — IDOR, broken auth, injecti
 ### 🕵️ Recon Automation Toolkit
 **Type:** Custom Bug Bounty Tooling
 
-A fast, self-built toolkit that automates the initial reconnaissance phase of bug bounty hunting — subdomain enumeration and endpoint discovery — cutting manual overhead significantly.
+A fast, self-built toolkit that automates the initial reconnaissance phase of bug bounty hunting  subdomain enumeration and endpoint discovery  cutting manual overhead significantly.
 
 `Go` `Automation` `Recon`
 
@@ -329,7 +329,7 @@ A fast, self-built toolkit that automates the initial reconnaissance phase of bu
 ### 🔥 Firebase Auth Demo
 **Type:** Secure Authentication Reference Build
 
-A demonstration of secure, modern authentication using React and Firebase Auth — implementing best practices like email verification and secure session handling.
+A demonstration of secure, modern authentication using React and Firebase Auth  implementing best practices like email verification and secure session handling.
 
 `React` `Firebase Auth` `Secure Sessions`
 
@@ -339,7 +339,7 @@ A demonstration of secure, modern authentication using React and Firebase Auth �
 ### 📘 Pentesting Vault
 **Type:** Personal Knowledge Base
 
-An organized, continuously growing repository of common vulnerabilities, exploitation payloads, and detailed methodology notes — my personal field manual for pentesting engagements.
+An organized, continuously growing repository of common vulnerabilities, exploitation payloads, and detailed methodology notes  my personal field manual for pentesting engagements.
 
 `Markdown` `Documentation` `Knowledge Management`
 
@@ -351,7 +351,7 @@ An organized, continuously growing repository of common vulnerabilities, exploit
 
 ## 💻 Code Style Sample
 
-A short illustrative snippet in the style I write backend security-conscious middleware — ownership-checked, input-validated, and fail-closed:
+A short illustrative snippet in the style I write backend security-conscious middleware  ownership-checked, input-validated, and fail-closed:
 
 ```javascript
 // middleware/verifyOwnership.js
@@ -395,7 +395,7 @@ router.post(
 );
 ```
 
-<sub>*Illustrative of coding conventions used across personal projects — not a direct excerpt from a private production repository.*</sub>
+<sub>*Illustrative of coding conventions used across personal projects  not a direct excerpt from a private production repository.*</sub>
 
 ---
 
@@ -441,9 +441,9 @@ Ministry of Religious Affairs (Kemenag Jak-Sel)
 
 ## 🎓 Education & Certifications
 
-**Information Systems Technology** — Undergraduate, 5th Semester
+**Information Systems Technology**  Undergraduate, 5th Semester
 
-**Vocational High School (SMK)** — Computer & Network Engineering (TKJ)
+**Vocational High School (SMK)**  Computer & Network Engineering (TKJ)
 - 🥇 Ranked **1st (Top Graduate)** in National Final Examination (Ujian Akhir)
 - 🥇 Achieved **Highest Score (Rank 1)** in BNSP National Competency Certification, TKJ
 
@@ -455,7 +455,7 @@ Ministry of Religious Affairs (Kemenag Jak-Sel)
 </p>
 
 ### Languages
-🇮🇩 **Indonesian** — Native &nbsp;|&nbsp; 🇬🇧 **English** — Professional Working Proficiency
+🇮🇩 **Indonesian**  Native &nbsp;|&nbsp; 🇬🇧 **English**  Professional Working Proficiency
 
 ---
 
@@ -491,7 +491,7 @@ What I'm actively working toward this year:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SS7ZX&theme=tokyo-night&hide_border=true" />
 </div>
 
-<!-- Optional: contribution snake — requires the snake workflow enabled on the SS7ZX/SS7ZX repo -->
+<!-- Optional: contribution snake  requires the snake workflow enabled on the SS7ZX/SS7ZX repo -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/SS7ZX/SS7ZX/output/github-contribution-grid-snake-dark.svg" />
 </div>
@@ -501,22 +501,22 @@ What I'm actively working toward this year:
 ## ❓ FAQ
 
 **Are you a developer who does security, or a security researcher who codes?**
-Both, deliberately. Building full-stack apps means I know exactly where developers cut corners — which makes the security side sharper. Doing security work means I ship code that's harder to break in the first place.
+Both, deliberately. Building full-stack apps means I know exactly where developers cut corners  which makes the security side sharper. Doing security work means I ship code that's harder to break in the first place.
 
 **What kind of role are you looking for?**
-Web Development, Junior Red Team / Cybersecurity, or Full-Stack Engineering — ideally somewhere that values both building and breaking.
+Web Development, Junior Red Team / Cybersecurity, or Full-Stack Engineering  ideally somewhere that values both building and breaking.
 
 **Do you take freelance security review work?**
-Open to it — reach out via email or LinkedIn with project scope.
+Open to it  reach out via email or LinkedIn with project scope.
 
 **What's the story behind C-Pay?**
-It started as a way to solve a real problem for campus events (cash handling was messy and error-prone) and became my proof that I could own an entire product — schema, backend, security, and frontend — solo.
+It started as a way to solve a real problem for campus events (cash handling was messy and error-prone) and became my proof that I could own an entire product  schema, backend, security, and frontend  solo.
 
 ---
 
 ## 📬 Let's Connect
 
-I'm actively seeking placements and collaborations in **Web Development**, **Cybersecurity (Junior Red Team)**, or **Full-Stack Engineering** — always open to a conversation about security, product, or both.-
+I'm actively seeking placements and collaborations in **Web Development**, **Cybersecurity (Junior Red Team)**, or **Full-Stack Engineering**  always open to a conversation about security, product, or both.-
 
 <p align="center">
   <a href="mailto:adnannsyukurr@gmail.com"><img src="https://img.shields.io/badge/Email-adnannsyukurr%40gmail.com-BB4BFF?style=for-the-badge&logo=gmail&logoColor=white" /></a>
