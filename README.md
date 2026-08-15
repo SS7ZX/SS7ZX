@@ -138,7 +138,7 @@ I treat "developer" and "security researcher" as one job, not two. Every feature
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Languages
 <p align="left">
