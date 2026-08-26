@@ -656,7 +656,7 @@ It started as a way to fix a real problem with campus events, where cash handlin
 
 **What is your current experience level, honestly?**
 
-I am a 5th-semester undergraduate. My projects are self-directed and internship-based rather than large-scale production systems, and I frame them that way intentionally throughout this README. What I can offer is strong fundamentals, a security-first habit formed early, and a track record of finishing what I start and being transparent about the gaps.
+I am a 5th-semester undergraduate. My projects are self-directed and internship-based rather than large-scale production systems, and I frame them that way intentionally throughout this README. What I can offer is strong fundamentals, a security-first habit formed early, and a track record of finishing what I start and being transparent.
 
 **What are you not good at yet?**
 
