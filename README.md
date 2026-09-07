@@ -134,7 +134,6 @@ Formal, certified background in LAN and WAN design, subnetting, and Linux admini
 ### Developing: Product and UX fundamentals
 
 Working knowledge of Figma prototyping, basic WCAG accessibility principles, and user flow mapping, applied on the LifeFin project.
-
 - Comfortable producing low and mid-fidelity wireframes before building
 - Aware of, though not expert in, WCAG contrast and navigation guidelines
 - Learning to write user flows that account for non-technical end users, since LifeFin's audience was small-business owners rather than developers
