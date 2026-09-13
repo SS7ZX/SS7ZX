@@ -2,10 +2,6 @@
 <!--  ADNAN SYUKUR  GITHUB PROFILE README  (Comprehensive v5.0)  -->
 <!-- ============================================================ -->
 
-<p align="center">
-  <img width="100%" alt="Cyberpunk Banner" src="https://github.com/user-attachments/assets/25f12f44-9acd-462b-b2f1-50cbe030ecc1" />
-</p>
-
 <h1 align="center">Adnan Syukur</h1>
 <h3 align="center">Full-Stack Developer (MERN) specializing in Web Security and VAPT</h3>
 
