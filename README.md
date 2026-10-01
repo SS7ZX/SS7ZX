@@ -12,7 +12,7 @@
 <p align="center">
   <a href="mailto:adnannsyukurr@gmail.com"><img src="https://img.shields.io/badge/Email-adnannsyukurr%40gmail.com-BB4BFF?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/adnansyukurs/"><img src="https://img.shields.io/badge/LinkedIn-Adnan%20Syukur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="[https://myportofolio-11053.web.app](https://adnan-portofolio-navy.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Site-C57AFF?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+  <a href="https://adnan-portofolio-navy.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Site-C57AFF?style=for-the-badge&logo=firefox&logoColor=white" /></a>
 </p>
 
 <p align="center">
