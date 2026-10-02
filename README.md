@@ -1,6 +1,6 @@
-<!-- ============================================================ -->
-<!--  ADNAN SYUKUR  GITHUB PROFILE README  (Comprehensive v5.0)  -->
-<!-- ============================================================ -->
+<!-- ======================================= -->
+<!--  ADNAN SYUKUR  GITHUB PROFILE README    -->
+<!-- ======================================= -->
 
 <h1 align="center">Adnan Syukur</h1>
 <h3 align="center">Full-Stack Developer (MERN) specializing in Web Security and VAPT</h3>
