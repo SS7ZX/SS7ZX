@@ -506,7 +506,6 @@ Automated testing infrastructure, large-scale cloud security, mobile app securit
 
 Email or LinkedIn, both linked at the top of this README and again in the contact section below. I typically respond within 48 hours.
 
----
 
 ## Contact
 
