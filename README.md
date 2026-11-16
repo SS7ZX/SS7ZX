@@ -299,7 +299,7 @@ Campus events at my university handled payments with cash, which created two rec
 +-------------------------------------v----------------------------------+
 |                          DATABASE (MongoDB)                           |
 |   Users/Wallets Collection  ·  Transactions Ledger  ·  Event Records  |
-+--------------------------------------------------------------------------+
++------------------------------------------------------------------------+
 ```
 
 ### Design decisions and the reasoning behind them
