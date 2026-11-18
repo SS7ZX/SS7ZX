@@ -280,28 +280,6 @@ A closer look at how C-Pay, my solo-built closed-loop payment system, is structu
 
 Campus events at my university handled payments with cash, which created two recurring issues: reconciliation errors at the end of each event, and no audit trail when disputes came up about what a student had or had not paid. I built C-Pay to replace that with a closed-loop digital wallet system specific to campus events.
 
-### System architecture
-
-```
-+----------------------------------------------------------------------+
-|                            CLIENT (React)                            |
-|   Event Check-in UI  ·  Wallet Balance View  ·  Merchant Terminal UI |
-+-------------------------------------+----------------------------------+
-                                       | HTTPS / REST
-+-------------------------------------v----------------------------------+
-|                     API LAYER (Express.js / Node.js)                  |
-|  +----------------+  +-----------------+  +----------------------------+ |
-|  | Auth Middleware |  | Transaction     |  | Input Validation and      | |
-|  | (session/token) |  | Controller      |  | Sanitization Layer        | |
-|  +----------------+  +-----------------+  +----------------------------+ |
-+-------------------------------------+----------------------------------+
-                                       |
-+-------------------------------------v----------------------------------+
-|                          DATABASE (MongoDB)                           |
-|   Users/Wallets Collection  ·  Transactions Ledger  ·  Event Records  |
-+------------------------------------------------------------------------+
-```
-
 ### Design decisions and the reasoning behind them
 
 **Transaction logic isolated from the controller layer.** Balance changes can only happen through one audited code path. This was a deliberate constraint: even if a new route or feature gets added later, it has to go through the same transaction function, which means the same validation and logging apply every time. The cost is some development speed, since a quick balance tweak cannot bypass the transaction layer for convenience. I decided that trade-off was worth it for a system handling money.
